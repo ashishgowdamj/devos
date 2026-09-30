@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+*.resolved
+
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+
+# Secrets and local state — never commit
+*.env
+*.pem
+*.key
+.env.local
+secrets/
+
+# Local provenance log and unpublished source-adjacent drafts.
+# These are quarantined deliberately: see PROVENANCE.md section 3.
+.local-draft/
+*.local.md
+PROVENANCE.local.md
+
+# Validation artifacts may contain local machine detail
+validation/*.local.md

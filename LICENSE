@@ -1,0 +1,10 @@
+Copyright (c) 2026 DevOS contributors. All rights reserved.
+
+This software is proprietary. No permission is granted to use, copy, modify, or distribute it
+without prior written authorisation from the copyright holder.
+
+Third-party components redistributed with DevOS remain under their own licences and are recorded
+per component in the provenance log.
+
+The final distribution licence is an open decision tracked in DECISIONS.md (D-10). Until that
+decision is made and signed off, this notice applies in full.
